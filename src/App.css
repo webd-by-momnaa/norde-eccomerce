@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;600;700;900;&family=Inter:wght@300;500;700&display=swap');
+
+#root {
+  max-width: 1280px;
+  background-color:#FFFFFF;
+  /* padding-bottom: 2rem; */
+  text-align: center;
+
+}
+body{
+  overflow-x: hidden;
+  font-family: 'DM Sans', sans-serif; /* Headings */
+
+}
+
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #FFFFFF;
+  z-index: 1000;
+  transition: box-shadow 0.3s ease;
+}
+
+.logo{
+  color: #262626;
+}
+p{
+  cursor: pointer;
+  color: #000000;
+}
+.link{
+  color: #000000;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 30px;
+}
+input::placeholder{
+color: #726d6d;
+font-size: 15px;
+background: #ffffff;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 12px;
+}
+
+.footer a:hover{
+ color: #262626;
+}
+.footer h1{
+  font-weight: 700;
+}
+.stories p {
+  position: relative;
+  font-family: 'Bricolage Grotesque';
+
+}
+
+.stories p::after {
+  content: "";
+  position: absolute;
+  left: -10px; /* Extends underline to the left */
+  right: -0px; /* Extends underline to the right */
+  Top: -0px; /* Adjust distance from text */
+  height: 16px; /* Thickness of underline */
+  background-color: black; /* Color of underline */
+}
+.latest img{
+height: 60%;
+width: 100%;
+object-fit: cover;
+}
+.latest p{
+  font-family: 'Bricolage Grotesque';
+
+}
+/* Hide scrollbar but keep scrolling */
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and newer Edge */
+}
+
+.hidden-scrollbar {
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  scrollbar-width: none;  /* For Firefox */
+  overflow-y: scroll; /* Ensure scrolling works */
+}

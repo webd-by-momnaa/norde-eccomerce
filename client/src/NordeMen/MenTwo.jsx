@@ -1,33 +1,34 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
-import sweaterOne from "../assets/SweaterOne.png"
-import pantsOne from "../assets/PantsOne.png"
-import teesOne from "../assets/TeesOne.png"
-import denimOne from "../assets/denimOne.png"
-const WomenTwo = () => {
+import SweaterTwo from "../assets/SweaterTwo.png"
+import PantThree from "../assets/PantThree.png"
+import teesFour from "../assets/TeesFour.png"
+import denimFour from "../assets/DenimFour.png"
+const MenTwo = () => {
   return (
-    <div className="">
-            <p className='text-xs tracking-wide uppercase text-start my-5 pl-3'>Shop by Category</p>
-    <div className='max-sm:overflow-scroll hidden-scrollbar bg-[#F8F6F4]'>
-      <div className="bg-[#F8F6F4]">
-      <div className="flex justify-between  w-300 h-100 py-12 ">
+    <div>
+      <p className='text-xs tracking-wide uppercase text-start my-5 pl-3'>Shop by Category</p>
+      <div className="max-sm:overflow-scroll hidden-scrollbar bg-[#F8F6F4]">
+       <div className="bg-[#F8F6F4]">  
+      <div className="flex justify-between  w-300 h-100 py-12">
         <div className="">
-        <img src={sweaterOne} alt="sweater" className='w-60'/>
+        <img src={SweaterTwo} alt="sweater" className='w-60'/>
                 </div>
                 <div className="">
-        <img src={pantsOne} alt="" className='w-50'/>
+        <img src={PantThree} alt="" className='w-50'/>
          
                 </div>
                 <div className="">
-        <img src={teesOne} alt="" className='w-46 pt-4'/> 
+        <img src={teesFour} alt="" className='w-66 pt-4'/> 
                 </div>
                 <div className="">
-        <img src={denimOne} alt="" className='w-50'/>
+        <img src={denimFour} alt="" className='w-60 -mt-6'/>
          
                 </div>
       </div>
       </div>
+     
       <div className="flex space-x-70 p-5">
       <div className="flex space-x-4 text-xs hover:font-semibold relative ">
                 <FaArrowRight className=''/>
@@ -46,9 +47,9 @@ const WomenTwo = () => {
                 <p className='tracking-wide'>DENIM </p>
                 </div>
       </div>
-    </div>
+      </div>
     </div>
   )
 }
 
-export default WomenTwo
+export default MenTwo

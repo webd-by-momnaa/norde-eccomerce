@@ -11,8 +11,8 @@ import DenimTen from "../assets/DenimTen.jpg"
 const StoriesTwo = () => {
   return (
     <div className='mx-20 text-start latest'>
-      <h1 className='text-5xl text-[#030303] mt-47 tracking-wide pb-8'>The Latest</h1>
-      <div className="grid grid-cols-3 lg:grid-cols-3 gap-7 gap-y-3">
+      <h1 className='text-5xl text-[#030303] mt-47 tracking-wide pb-8 max-sm:mt-11'>The Latest</h1>
+      <div className="grid grid-cols-3 lg:grid-cols-3 max-sm:grid-cols-1 gap-7 gap-y-3">
         <div className="space-y-4">
        <img src={DenimLatest} alt="" className="" /> 
         <p className='text-3xl'>The February Cleaner Fashion Edit</p>

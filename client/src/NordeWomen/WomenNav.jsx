@@ -28,7 +28,7 @@ const WomenNav = () => {
 
   return (
     <div id="navbar" className="navbar">
-      <div className='flex justify-between border-b border-gray-200 py-1 px-[4rem]'>
+      <div className='flex justify-between border-b border-gray-200 py-1 px-[4rem] max-sm:py-2 max-sm:px-2'>
         {/* Desktop Links */}
         <div className="font-thin pb-1 tracking-tight text-[13px] lg:flex hidden">
           <Link className='hover:bg-gray-100 p-3 rounded underline underline-offset-23 decoration-2' to='/women'>Women</Link>
@@ -44,7 +44,9 @@ const WomenNav = () => {
         {/* Mobile Dropdown */}
         {isOpen && (
           <div className="absolute top-12 left-0 bg-[#FFFFFF] shadow-lg h-[530px] w-[300px] flex flex-col gap-7 lg:hidden text-start py-4 px-4 ">
-            <label htmlFor="">Women</label>
+            <Link to="/women">
+<label className='underline underline-offset-23 decoration-2' >Women</label>
+</Link>
           <Select defaultValue={"catogries"}>
   <Select.Option value="catogries" >Browse Categories</Select.Option>
   <Select.Option value="new-arrivals">New Arrivals</Select.Option>
@@ -59,7 +61,9 @@ const WomenNav = () => {
   <Select.Option value="shoes-accessories">Shoes & Accessories</Select.Option>
   <Select.Option value="sale" className='text-red-600'>Sale</Select.Option>
 </Select>
-<label className=''>Men</label>
+<Link to="/men">
+<label className='' >Men</label>
+</Link>
           <Select defaultValue={"catogries"}>
   <Select.Option value="catogries" >Browse Categories</Select.Option>
   <Select.Option value="new-arrivals">New Arrivals</Select.Option>
@@ -72,7 +76,7 @@ const WomenNav = () => {
   <Select.Option value="bags-accessories">Bags & Accessories</Select.Option>
   <Select.Option value="sale" className='text-red-600'>Sale</Select.Option>
 </Select>
-<Link className="">Everworld Stories</Link>
+<Link to="/everworld-stories">Everworld Stories</Link>
 <span className="w-full  border-b border-gray-300"></span>
 <div className="text-sm flex flex-col gap-5 tracking-wide text-[#262633] ">
 <Link className="hover:text-[black]">Log In</Link>

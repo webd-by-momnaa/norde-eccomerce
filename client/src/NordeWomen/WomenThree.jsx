@@ -4,9 +4,9 @@ import ShoesOne from "../assets/ShoesOne.jpg"
 import { FaArrowRight } from 'react-icons/fa'
 const WomenThree = () => {
   return (
-    <div className='flex'>
+    <div className='lg:flex'>
       <div className="">
-        <img src={DenimTwo} alt="Denim-Norde" className="w-570 h-50 object-cover object-bottom h-200" />
+        <img src={DenimTwo} alt="Denim-Norde" className="w-570 object-cover object-bottom h-200" />
         <div className="-mt-11 ml-5">
         <p className='text-xs text-start pb-2 tracking-wider'>DENIM DONE DIFFERENTLY</p>
             <div className="flex space-x-4 text-xs hover:font-semibold relative ">

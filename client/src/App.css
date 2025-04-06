@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;600;700;900;&family=Inter:wght@300;500;700&display=swap');
 
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   background-color:#FFFFFF;
   /* padding-bottom: 2rem; */
   text-align: center;
@@ -84,5 +84,5 @@ object-fit: cover;
 .hidden-scrollbar {
   -ms-overflow-style: none;  /* For Internet Explorer and Edge */
   scrollbar-width: none;  /* For Firefox */
-  overflow-y: scroll; /* Ensure scrolling works */
+   overflow-y: scroll; 
 }

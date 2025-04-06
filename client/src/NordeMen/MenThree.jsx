@@ -4,7 +4,7 @@ import ModelSix from "../assets/ModelSix.jpg"
 import { FaArrowRight } from 'react-icons/fa'
 const MenThree = () => {
   return (
-    <div className='flex'>
+    <div className='lg:flex'>
       <div className="">
         <img src={ModelFive} alt="Denim-Norde" className="w-570  object-cover object-bottom h-180" />
         <div className="-mt-11 ml-5">

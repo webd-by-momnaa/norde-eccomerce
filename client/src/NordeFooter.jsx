@@ -4,12 +4,12 @@ import { IoArrowForward } from "react-icons/io5";
 import { Link } from 'react-router-dom'
 const NordeFooter = () => {
   return (
-    <div className="bg-[#F5F4F4] footer tracking-tight h-110 py-13 z-300000">
+    <div className="bg-[#F5F4F4] footer tracking-tight h-110 py-13 z-300000 max-sm:h-270 max-sm:px-5">
       <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className='relative -top-5 '>
   Back to Top
 <BiUpArrow className='relative -top-5 left-22'/>
 </button>
-    <div className='grid grid-cols-5 divide-x-3 divide-none text-left px-35 mb-9'>
+    <div className='grid grid-cols-5 max-sm:grid-cols-1 divide-x-3 divide-none text-left lg:px-35 md:px-35 mb-9 max-sm:text-start'>
       <div className="flex flex-col gap-3  ">
         <h1 className='text-[16px] text-[#262626]'>Account</h1>
         <Link className='text-[#737373] text-[14px]'>Log In</Link>

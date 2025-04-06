@@ -6,8 +6,8 @@ const MenOne = () => {
   return (
     <div className='flex   h-122'>
       <div className="">
-      <img src={modelFour} alt="Nordé Model" className='object-cover object-top h-120 w-200'/>
-      <div className="absolute top-0 left-109 top-35">
+      <img src={modelFour} alt="Nordé Model" className='object-cover object-top h-120 w-200 max-sm:hidden'/>
+      <div className="absolute left-109 top-35 max-sm:-left-3.5 max-sm:top-18">
         <p className='pt-40 tracking-wide text-xl relative left-28'>THE SPRING EDIT <b>001</b></p>
         <div className="flex space-x-4 pt-59 text-xs font-thin hover:font-semibold relative left-28">
         <FaArrowRight className='font-light'/>

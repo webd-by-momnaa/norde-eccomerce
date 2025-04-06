@@ -6,7 +6,7 @@ const WomenOne = () => {
   return (
     <div className='lg:flex lg:justify-between bg-[#F3F3F3] h-122'>
       <div className="">
-      <img src={modelOne} alt="Nordé Model" className=' object-cover object-center max-sm:hidden w-107 relative lg:-top-28 left-50 max-md:-top-39  min-md:-top-39'/>
+      <img src={modelOne} alt="Nordé Model" className=' object-cover object-center max-sm:hidden w-107 relative left-50 max-md:-top-39  min-md:-top-39'/>
       </div>
       <div className="">
         <p className='pt-40 tracking-wide text-xl relative left-28  w-60 z-1'>THE SPRING EDIT <b>001</b></p>
